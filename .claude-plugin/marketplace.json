@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "daverona",
+  "owner": {
+    "name": "daverona",
+    "url": "https://github.com/daverona"
+  },
+  "metadata": {
+    "description": "daverona's Claude Code plugins",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "tracker",
+      "source": {
+        "source": "github",
+        "repo": "daverona/tracker"
+      },
+      "description": "Issue and task workflows for GitHub, GitLab, and ClickUp",
+      "version": "0.1.0",
+      "author": { "name": "daverona" }
+    }
+  ]
+}
